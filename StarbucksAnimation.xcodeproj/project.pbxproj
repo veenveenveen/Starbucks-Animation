@@ -12,6 +12,7 @@
 		E229B7971EA603FB000EBE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E229B7951EA603FB000EBE20 /* Main.storyboard */; };
 		E229B7991EA603FB000EBE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E229B7981EA603FB000EBE20 /* Assets.xcassets */; };
 		E229B79C1EA603FB000EBE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E229B79A1EA603FB000EBE20 /* LaunchScreen.storyboard */; };
+		E229B7A51EA607D0000EBE20 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E229B7A41EA607D0000EBE20 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E229B7981EA603FB000EBE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E229B79B1EA603FB000EBE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E229B79D1EA603FB000EBE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E229B7A41EA607D0000EBE20 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				E229B7981EA603FB000EBE20 /* Assets.xcassets */,
 				E229B79A1EA603FB000EBE20 /* LaunchScreen.storyboard */,
 				E229B79D1EA603FB000EBE20 /* Info.plist */,
+				E229B7A31EA6078D000EBE20 /* Resources */,
 			);
 			path = StarbucksAnimation;
+			sourceTree = "<group>";
+		};
+		E229B7A31EA6078D000EBE20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E229B7A41EA607D0000EBE20 /* Icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E229B7A51EA607D0000EBE20 /* Icon.png in Resources */,
 				E229B79C1EA603FB000EBE20 /* LaunchScreen.storyboard in Resources */,
 				E229B7991EA603FB000EBE20 /* Assets.xcassets in Resources */,
 				E229B7971EA603FB000EBE20 /* Main.storyboard in Resources */,
